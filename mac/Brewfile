@@ -6,3 +6,4 @@ brew 'go'
 brew 'ghq'
 cask "appcleaner"
 cask "iterm2"
+cask "alfred"
