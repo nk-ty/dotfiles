@@ -6,6 +6,7 @@ export LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=46;34:cd=43;34:su=41;30:sg=46
 plugins=(git)
 
 export PATH="/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/home/kishinao/.local/bin:/home/kishinao/bin:/opt/aws/bin:/home/kishinao/bin:/opt/aws/bin"
+eval "$( /opt/homebrew/bin/brew shellenv )"
 
 # anyenv
 if [ -d $HOME/.anyenv ] ; then

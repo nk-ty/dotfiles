@@ -1,21 +1,4 @@
-# cask "docker"
-# cask "google-japanese-ime"
-# cask "karabiner-elements"
-# cask "kindle"
-# cask "line"
-# cask "macvim"
-# cask "microsoft-remote-desktop-beta"
-# cask "skype"
-# cask 'freemind'
-# cask 'mysqlworkbench'
-# cask 'pycharm'
-# cask 'alfred'
-# cask 'evernote'
-
 cask_args appdir: "/Applications"
-tap "caskroom/cask"
-brew "git"
-brew "nodebrew"
 brew "peco"
 brew "python"
 brew "zsh"
@@ -23,5 +6,3 @@ brew 'go'
 brew 'ghq'
 cask "appcleaner"
 cask "iterm2"
-cask "visual-studio-code"
-cask 'spectacle'
